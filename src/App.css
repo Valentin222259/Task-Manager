@@ -2,6 +2,8 @@
   background-color: #f3f3fb;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;       /* permite trecerea pe rândul următor */
+  gap: 20px;             /* spațiu între carduri */
+  justify-content: flex-start; /* aliniere la stânga */
+  padding: 32px;         /* echivalentul lui 2rem, dar în px */
 }
