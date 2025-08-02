@@ -45,6 +45,18 @@ const data = [
     status: "Todo",
     dueDate: new Date(2022, 5, 23),
   },
+  {
+    id: "T-8",
+    name: "16 Create a Design System for Enum Workspace.",
+    status: "Pending",
+    dueDate: new Date(2022, 5, 23),
+  },
+  {
+    id: "T-9",
+    name: "16 Create a Design System for Enum Workspace.",
+    status: "Pending",
+    dueDate: new Date(2022, 5, 23),
+  },
 ];
 
 function App() {
